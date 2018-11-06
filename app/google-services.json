@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "506057424026",
+    "firebase_url": "https://myfirebaseauthapp-51316.firebaseio.com",
+    "project_id": "myfirebaseauthapp-51316",
+    "storage_bucket": "myfirebaseauthapp-51316.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:506057424026:android:48d84cd4511e09ab",
+        "android_client_info": {
+          "package_name": "com.example.hp.homedb"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "506057424026-niceu7n20ntfvr8ehuu7h2kmko398dn1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCKJx0X_N92V4bgzKsU5up13QSD3WSYKb8"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="#ccceb7"
+    android:orientation="vertical"
+    tools:context=".Add">
+
+
+    <EditText
+        android:id="@+id/EditTextName"
+        android:layout_height="wrap_content"
+        android:hint="Your Name"
+        android:textColorHint="#000000"
+        android:padding="30dp"
+        android:inputType="textPersonName"
+        android:layout_width="fill_parent">
+    </EditText>
+
+    <EditText
+        android:id="@+id/EditTextEmail"
+        android:layout_height="wrap_content"
+        android:hint="Your Email  *optional*"
+        android:padding="30dp"
+        android:textColorHint="#000000"
+        android:inputType="textEmailAddress"
+        android:layout_width="fill_parent">
+    </EditText>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="17dp"
+        android:text="How do you rate this app?"
+        />
+    <RatingBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="4dp"
+        android:id="@+id/rb"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="17dp"
+        android:id="@+id/tvRateCount"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="17dp"
+        android:id="@+id/tvRateMessage"/>
+
+    <EditText
+        android:id="@+id/EditTextFeedbackBody"
+        android:layout_height="wrap_content"
+        android:hint="Feedback Details"
+        android:textColorHint="#000000"
+        android:inputType="textMultiLine"
+        android:padding="30dp"
+        android:lines="5"
+        android:layout_width="fill_parent">
+    </EditText>
+
+    <CheckBox
+        android:id="@+id/CheckBoxResponse"
+        android:layout_height="wrap_content"
+        android:text="Would you like an email response?"
+        android:layout_width="fill_parent">
+    </CheckBox>
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <Button
+        android:id="@+id/button_send2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#71DA98"
+        android:text="Send feedback"/>
+
+</LinearLayout>

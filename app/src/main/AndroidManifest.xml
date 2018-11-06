@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.hp.homedb">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/launcher"
+        android:label="Interview Experience Corner"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".ActivitySplash">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Home"
+            android:label="Interview Experience Corner" />
+        <activity
+            android:name=".Bank"
+            android:label="The Archives:"
+            android:parentActivityName=".Home" />
+        <activity
+            android:name=".Ideas"
+            android:label="Share your experience"
+            android:parentActivityName=".Home" />
+        <activity
+            android:name=".Wifi"
+            android:label="About Us"
+            android:parentActivityName=".Home" />
+        <activity
+            android:name=".Links"
+            android:label="News"
+            android:parentActivityName=".Home" />
+        <activity
+            android:name=".Add"
+            android:label="Please enter your feedback"
+            android:parentActivityName=".Home" />
+        <activity android:name=".Main2Activity" />
+        <activity android:name=".message_soon" />
+        <activity
+            android:name=".Student_list"
+            android:label="Choose to view" />
+        <activity android:name=".respective_exp" />
+        <activity
+            android:name=".FirebaseMainActivity"
+            android:label="Please Register to continue" />
+        <activity
+            android:name=".LoginActivity"
+            android:label="Please Login to continue" />
+        <activity android:name=".support"></activity>
+    </application>
+
+</manifest>
